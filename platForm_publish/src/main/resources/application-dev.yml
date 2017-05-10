@@ -1,0 +1,14 @@
+mybatis:
+  mapper-locations: mapper/*.xml   #扫描sql配置文件:mapper需要配置文件
+  type-aliases-package: com.mrpeng.entity #扫描entity包,对于整个包使用别名
+  configuration:
+    use-generated-keys: true  # useGenerateKeys属性表示的是:允许JDBC自动生成主键,需要驱动兼容,当值设置为true的时候,这个值设置强制使用自动主键.
+    use-column-label: true #使用标签代替列名,在这种情况使用select column as column2 from table,主要是基于对列的别名
+    map-underscore-to-camel-case: true #mapUnderscoreToCamelCase开启驼峰命名转换的规则在数据库中 table列名为 end_time对应于实体内容的endTime的属性
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#banner 配置
+banner:
+  charset: UTF-8
+  location: classpath:banner/banner.txt
+#logging
+
