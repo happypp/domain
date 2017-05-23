@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  context-path: /redis
+spring:
+  redis:
+    host: 192.168.244.132
+    port: 6379
+    pool:
+      max-active: 8
+      max-wait: 1
+      max-idle: 8
+      min-idle: 0
+    password:
+    timeout: 0
