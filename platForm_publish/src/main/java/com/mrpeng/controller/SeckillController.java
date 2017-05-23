@@ -13,15 +13,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 /**
  * Description: 整个秒杀系统的Controller层,使用spring mvc的restful风格url
  *
- * @author: dong
- * @create: 2017-03-19-18:38
- */
+ * Created by pp on 2017/5/9.
+ * */
 @RestController    // 当前注解继承自@Component,是为了表明分层组件的分层,类似的还有@Service
 @RequestMapping("/seckill")  // @RequestMappping MVC的url->对应的方法 url:模块/资源/{}/细分
 public class SeckillController {
@@ -32,6 +30,7 @@ public class SeckillController {
 //    @RequestMapping(value = "/list", method = RequestMethod.GET)
     @GetMapping("/list")
     public String getList(Model model) {
+        int i;
         // 调用service层的方法查询所有的记录
         List<SecKill> seckillList = this.service.getSeckillList();
         // 将其保存在ModelAndView中,用于在jsp列表页面展示
