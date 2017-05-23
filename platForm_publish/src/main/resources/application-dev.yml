@@ -11,4 +11,3 @@ banner:
   charset: UTF-8
   location: classpath:banner/banner.txt
 #logging
-
