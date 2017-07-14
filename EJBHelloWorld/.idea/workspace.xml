@@ -115,11 +115,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/ejb/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/HelloWorldBeanBean.java" />
         <option value="$PROJECT_DIR$/EJBHelloWorldTest/src/ejb/HelloWorld.java" />
         <option value="$PROJECT_DIR$/EJBHelloWorldTest/src/com/ejb/HelloWorld.java" />
         <option value="$PROJECT_DIR$/EJBHelloWorldTest/src/jboss-ejb-client.properties" />
         <option value="$PROJECT_DIR$/EJBHelloWorldTest/src/HelloWorldClient.java" />
+        <option value="$PROJECT_DIR$/src/HelloWorldBeanBean.java" />
       </list>
     </option>
   </component>
@@ -834,12 +834,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500041507352</updated>
-      <workItem from="1500041511033" duration="1283000" />
+      <workItem from="1500041511033" duration="1877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1283000" />
+    <option name="totallyTimeSpent" value="1877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="29" width="1938" height="1060" extended-state="6" />
